@@ -21,8 +21,10 @@ header {
 	width: 100%;
 }
 
-h2 ~ p {
+article p {
 	color: blue;
+	margin: 0;
+	margin: 10px 25px;
 }
 
 main {

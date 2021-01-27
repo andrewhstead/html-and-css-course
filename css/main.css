@@ -251,7 +251,6 @@ img {
 
 #wrapper {
 	width: 1000px;
-	height: 1000px;
 	background-color: purple;
 	padding: 2px;
 	display: flex;
@@ -259,13 +258,13 @@ img {
 	flex-direction: row;
 	flex-wrap: wrap-reverse;
 	*/
-	flex-flow: row wrap;
+	flex-flow: row;
 	justify-content: space-around;
 	align-items: flex-start;
 }
 
 .item {
-	flex-basis: 50px;
+	flex-basis: 300px;
 	flex-grow: 1;
 	background-color: orange;
 	font: 5em Arial;
@@ -274,5 +273,13 @@ img {
 }
 	
 #one {
+	flex-grow: 0;
+}
 
+#two {
+	flex-grow: 2;
+}
+
+#three {
+	flex-shrink: 2;
 }

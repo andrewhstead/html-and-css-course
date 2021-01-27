@@ -80,6 +80,9 @@ a:hover {
 
 article {
 	border: solid red 5px;
+	border-width: 5px 10px 15px;
+	border-color: red orange yellow pink;
+	border-style: solid dotted dashed groove;
 	/*
 	border-style: solid;
 	border-color: red;

@@ -11,9 +11,14 @@ body {
 header {
 	background-color: lightyellow;
 	position: fixed;
+	/*
+	position: sticky;
+	position: -webkit-sticky;
+	*/
 	top: 0;
 	left: 0;
 	z-index: 1;
+	width: 100%;
 }
 
 h2 ~ p {
@@ -29,6 +34,11 @@ main {
 footer {
 	position: relative;
 	top: 100px;
+}
+
+#move {
+	position: relative;
+	left: 250px;
 }
 
 p {

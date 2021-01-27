@@ -1,7 +1,11 @@
 body {
+	/*
 	background-image: url(../img/dev.png);
 	background-size: 10%;
-	background-repeat: repeat-y;
+	background-repeat: no-repeat;
+	background-position: 20% 5px;
+	*/
+	background: url(../img/dev.png) left 5%/5% repeat-x;
 }
 
 h2 ~ p {

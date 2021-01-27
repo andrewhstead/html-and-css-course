@@ -287,7 +287,8 @@ img {
 #grid {
 	background-color: darkorange;
 	display: grid;
-	grid-template-columns: auto auto auto;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: auto auto auto;
 	padding: 5px;
 	grid-gap: 5px;
 	font: 5em Arial;
@@ -295,4 +296,8 @@ img {
 
 #grid > div {
 	background-color: wheat;
+}
+
+#grid-one {
+	grid-area: 2 / 2 / span 2 / span 2;
 }

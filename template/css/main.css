@@ -40,7 +40,7 @@ nav {
 	opacity: 0.8;
 }
 
-#info-section {
+.info-section {
 	display: flex;
 	margin: 20px 0;
 	color: #446644;
@@ -69,3 +69,32 @@ h2 {
 	border-left: 1px solid #cfb53b;
 }
 
+h3 {
+	text-align: center;
+	margin: 10px;
+	font: 1.2em normal Century, serif;
+}
+
+.social {
+	width: 20%;
+	margin: 10px;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.section-box {
+	margin: 10px 40px;
+	box-shadow: #cfb53b 0 0 5px 5px;
+	border-radius: 10px;
+}
+
+.text-link, .icon-link {
+	text-decoration: none;
+}
+
+.text-link:hover {
+	text-decoration: underline;
+	color: #6666ff;
+}

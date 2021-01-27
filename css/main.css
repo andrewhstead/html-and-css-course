@@ -29,6 +29,16 @@ h2 {
 	text-transform: lowercase;
 }
 
-a {
+a:link {
+	text-decoration: none;
+	color: red;
+}
+
+a:visited {
+	color: thistle;
+}
+
+a:hover {
 	text-decoration: underline;
+	color: lightsalmon;
 }

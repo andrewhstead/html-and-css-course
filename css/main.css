@@ -103,4 +103,12 @@ article h2 {
 	background-color: #333333;
 	color: white;
 }
-	
+
+#sample {
+	position: relative;
+	top: 100px;
+}
+
+table, td, th {
+	border: 1px solid black;
+}

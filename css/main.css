@@ -146,6 +146,14 @@ article p:first-of-type {
 	color: green;
 }
 
+ul {
+
+}	
+
 ul > li {
-	list-style-type: circle;
+	list-style-type: disc;
+}
+
+#countries {
+	list-style-type: upper-roman;
 }

@@ -14,6 +14,9 @@ p {
 	font-style: italic;
 	*/
 	font: bold italic 1em Century;
+	text-align: justify;
+	text-transform: none;
+	line-height: 1.5;
 }
 
 main p {
@@ -22,6 +25,8 @@ main p {
 
 h2 {
 	text-decoration: underline;
+	text-align: center;
+	text-transform: lowercase;
 }
 
 a {

@@ -8,12 +8,27 @@ body {
 	background: url(../img/dev.png) left 5%/5% repeat-x;
 }
 
+header {
+	background-color: lightyellow;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
 h2 ~ p {
 	color: blue;
 }
 
 main {
 	font-size: 1em;
+	position: relative;
+	top: 100px;
+}
+
+footer {
+	position: relative;
+	top: 100px;
 }
 
 p {

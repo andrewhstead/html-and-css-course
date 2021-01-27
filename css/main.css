@@ -112,4 +112,18 @@ article h2 {
 table, td, th {
 	border: 1px solid black;
 	border-collapse: collapse;
+	padding: 5px;
+}
+
+tr {
+	background-color: lightgray;
+}
+
+tbody tr:nth-of-type(even) {
+	background-color: #eeeeee;
+}
+
+thead tr {
+	background-color: gray;
+	color: white;
 }

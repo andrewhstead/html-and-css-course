@@ -261,14 +261,18 @@ img {
 	*/
 	flex-flow: row wrap;
 	justify-content: space-around;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .item {
-	width: 100px;
+	flex-basis: 50px;
+	flex-grow: 1;
 	background-color: orange;
 	font: 5em Arial;
 	text-align: center;
 	margin: 5px;
 }
 	
+#one {
+
+}

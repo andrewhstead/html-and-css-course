@@ -159,3 +159,11 @@ ul > li {
 #countries {
 	list-style: lower-alpha inside url(../img/globe.png);
 }
+
+#devon {
+	transform: rotate(45deg);
+}
+
+#italy {
+	transform: rotate(-20deg);
+}

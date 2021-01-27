@@ -119,11 +119,20 @@ tr {
 	background-color: lightgray;
 }
 
+thead tr {
+	background-color: gray;
+	color: white;
+}
+
 tbody tr:nth-of-type(even) {
 	background-color: #eeeeee;
 }
 
-thead tr {
-	background-color: gray;
-	color: white;
+tbody tr:first-of-type {
+	background-color: darkorange;
+}
+
+tbody tr:last-of-type {
+	background-color: darkred;
+	color: yellow;
 }

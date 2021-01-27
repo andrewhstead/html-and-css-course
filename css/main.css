@@ -167,3 +167,19 @@ ul > li {
 #italy {
 	transform: rotate(-20deg);
 }
+
+#germany {
+	transform: rotateX(50deg);
+}
+
+#france {
+	transform: rotateY(45deg);
+}
+
+#canada {
+	transform: rotateZ(90deg);
+}
+
+#usa {
+	transform: rotate3d(2,2,2,45deg);
+}

@@ -4,7 +4,7 @@ body {
 
 h1 {
 	color: #446644;
-	font: 5em Century serif;
+	font: 5em Century, serif;
 	margin: 0;
 	padding: 0 0 5px 25px;
 }
@@ -18,11 +18,11 @@ nav {
 	background-color: #446644;
 	color: white;
 	text-decoration: none;
-	font: 1em Century serif;
+	font: 1em Century, serif;
 	text-align: center;
 	border-top: 2px solid #cfb53b;
 	border-bottom: 2px solid #cfb53b;
-	padding: 5px;
+	padding: 3px 0 5px;
 	transition: 0.5s;
 }
 
@@ -34,3 +34,38 @@ nav {
 	border-top: 2px solid #446644;
 	border-bottom: 2px solid #446644;
 }
+
+.banner-image {
+	width: 100%;
+	opacity: 0.8;
+}
+
+#info-section {
+	display: flex;
+	margin: 20px 0;
+	color: #446644;
+}
+
+.info-block {
+	flex: 1;
+	padding: 0 40px;
+}
+
+.info-block p {
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+	margin: 0;
+	font: 1.5em normal Century, serif;
+}	
+
+#left-block {
+	border-right: 1px solid #cfb53b;
+}
+
+#right-block {
+	border-left: 1px solid #cfb53b;
+}
+

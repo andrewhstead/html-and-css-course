@@ -226,9 +226,21 @@ img {
 	padding: 10px;
 }
 
+#rightbar {
+	background-color: khaki;
+	width: 250px;
+	float: right;
+	padding: 10px;
+}
+
 #content {
 	background-color: lightblue;
-	width: 75%;
 	padding: 10px;
-	margin-left: 270px;
+	margin: 0 270px;
+}
+
+#footer {
+	background-color: lightcoral;
+	width: 100%;
+	clear: both;
 }

@@ -160,12 +160,16 @@ ul > li {
 	list-style: lower-alpha inside url(../img/globe.png);
 }
 
+img {
+	margin: 50px 25px;
+}
+
 #devon {
-	transform: rotate(45deg);
+	transform: translateY(-50px);
 }
 
 #italy {
-	transform: rotate(-20deg);
+	transform: scaleY(2);
 }
 
 #germany {

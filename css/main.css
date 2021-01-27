@@ -283,3 +283,16 @@ img {
 #three {
 	flex-shrink: 2;
 }
+
+#grid {
+	background-color: darkorange;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 5px;
+	grid-gap: 5px;
+	font: 5em Arial;
+}
+
+#grid > div {
+	background-color: wheat;
+}

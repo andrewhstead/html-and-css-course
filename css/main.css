@@ -199,3 +199,17 @@ img {
 #australia {
 	transform: skew(10deg,30deg);
 }
+
+#transition {
+	width: 250px;
+	height: 250px;
+	background-color: blue;
+	transition-property: background-color width height;
+	transition-duration: 2s;
+}
+
+#transition:hover {
+	background-color: red;
+	width: 500px;
+	height: 125px;
+}

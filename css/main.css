@@ -204,12 +204,17 @@ img {
 	width: 250px;
 	height: 250px;
 	background-color: blue;
+	/*
 	transition-property: background-color width height;
 	transition-duration: 2s;
+	transition-delay: 1s;
+	transition-timing-function: linear;
+	*/
+	transition: all 2s 1s linear;
 }
 
 #transition:hover {
-	background-color: red;
 	width: 500px;
+	background-color: red;
 	height: 125px;
 }

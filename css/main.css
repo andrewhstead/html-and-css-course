@@ -3,14 +3,27 @@ h2 ~ p {
 }
 
 main {
-	font-size: 2em;
+	font-size: 1em;
 }
 
 p {
+	/*
 	font-size: 1em;
 	font-family: 'Mulish', sans-serif;
+	font-weight: normal;
+	font-style: italic;
+	*/
+	font: bold italic 1em Century;
 }
 
 main p {
-	font-size: 0.5em;
+	font-size: 1em;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: underline;
 }

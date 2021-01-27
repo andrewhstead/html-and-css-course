@@ -250,7 +250,8 @@ img {
 }
 
 #wrapper {
-	width: 40%;
+	width: 1000px;
+	height: 1000px;
 	background-color: purple;
 	padding: 2px;
 	display: flex;
@@ -258,11 +259,12 @@ img {
 	flex-direction: row;
 	flex-wrap: wrap-reverse;
 	*/
-	flex-flow: row-reverse wrap;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .item {
-	height: 100px;
 	width: 100px;
 	background-color: orange;
 	font: 5em Arial;

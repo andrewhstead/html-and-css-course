@@ -1,3 +1,7 @@
+body {
+	background-image: url(../img/dev.png);
+}
+
 h2 ~ p {
 	color: blue;
 }
@@ -42,3 +46,15 @@ a:hover {
 	text-decoration: underline;
 	color: lightsalmon;
 }
+
+article {
+	/*
+	background-image: radial-gradient(circle,pink,yellow,purple);
+	*/
+}
+
+article h2 {
+	background-color: #333333;
+	color: white;
+}
+	

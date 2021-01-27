@@ -11,6 +11,10 @@ h1 {
 
 nav {
 	display: flex;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 1;
 }
 
 .menu-link {
@@ -97,4 +101,12 @@ h3 {
 .text-link:hover {
 	text-decoration: underline;
 	color: #6666ff;
+}
+
+footer {
+	background-color: #446644;
+	font: 1em Century, serif;
+	padding: 3px 0 5px 25px;
+	border-top: 2px solid #cfb53b;
+	color: white;
 }

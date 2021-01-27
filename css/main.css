@@ -124,7 +124,7 @@ thead tr {
 	color: white;
 }
 
-tbody tr:nth-of-type(even) {
+tbody tr:nth-of-type(3) {
 	background-color: #eeeeee;
 }
 
@@ -135,4 +135,9 @@ tbody tr:first-of-type {
 tbody tr:last-of-type {
 	background-color: darkred;
 	color: yellow;
+}
+
+tbody tr:nth-last-of-type(2) {
+	background-color: yellow;
+	color: blue;
 }

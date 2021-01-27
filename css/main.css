@@ -224,6 +224,10 @@ img {
 	width: 250px;
 	float: left;
 	padding: 10px;
+	/*
+	height: 500px;
+	overflow: auto;
+	*/
 }
 
 #rightbar {

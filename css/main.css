@@ -152,8 +152,10 @@ ul {
 
 ul > li {
 	list-style-type: disc;
+	background-color: lightgreen;
+	list-style-position: outside;
 }
 
 #countries {
-	list-style-type: upper-roman;
+	list-style: lower-alpha inside url(../img/globe.png);
 }

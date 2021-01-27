@@ -250,10 +250,15 @@ img {
 }
 
 #wrapper {
-	width: 100%;
+	width: 40%;
 	background-color: purple;
 	padding: 2px;
 	display: flex;
+	/*
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	*/
+	flex-flow: row-reverse wrap;
 }
 
 .item {

@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	color: #446644;
+	font: 5em Century serif;
+	margin: 0;
+	padding: 0 0 5px 25px;
+}
+
+nav {
+	display: flex;
+}
+
+.menu-link {
+	flex: 1;
+	background-color: #446644;
+	color: white;
+	text-decoration: none;
+	font: 1em Century serif;
+	text-align: center;
+	border-top: 2px solid #cfb53b;
+	border-bottom: 2px solid #cfb53b;
+	padding: 5px;
+	transition: 0.5s;
+}
+
+.menu-link:hover {
+	background-color: #aaccaa;
+	color: black;
+	text-decoration: underline;
+	font-weight: bold;
+	border-top: 2px solid #446644;
+	border-bottom: 2px solid #446644;
+}

@@ -183,3 +183,15 @@ ul > li {
 #usa {
 	transform: rotate3d(2,2,2,45deg);
 }
+
+#spain {
+	transform: skewX(20deg);
+}
+
+#brazil {
+	transform: skewY(170deg);
+}
+
+#australia {
+	transform: skew(10deg,30deg);
+}

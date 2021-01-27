@@ -2,10 +2,14 @@ h2 ~ p {
 	color: blue;
 }
 
-#lead {
-	font-size: 18px;
+main {
+	font-size: 2rem;
 }
 
-.lead {
-	font-size: 24px;
+p {
+	font-size: 1rem;
+}
+
+main p {
+	font-size: 0.5rem;
 }

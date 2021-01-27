@@ -99,6 +99,18 @@ article {
 	*/
 }
 
+span {
+	color: red;
+}
+
+.same-color {
+	color: inherit;
+}
+
+.default-color {
+	color: initial;
+}
+
 article h2 {
 	background-color: #333333;
 	color: white;
@@ -299,6 +311,9 @@ img {
 	padding: 5px;
 	grid-gap: 5px;
 	font: 5em Arial;
+	/*
+	all: initial;
+	*/
 }
 
 #grid > div {

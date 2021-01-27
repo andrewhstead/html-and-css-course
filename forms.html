@@ -48,6 +48,21 @@
 			<fieldset>
 				<legend>User Choices</legend>
 				
+				<label for="country">Country:</label>
+				<select id="country" name="country">
+					<optgroup label="Europe">
+						<option value="france">France</option>
+						<option value="germany">Germany</option>
+						<option value="italy">Italy</option>
+						<option value="spain">Spain</option>
+						<option value="united-kingdom">United Kingdom</option>
+					</optgroup>
+					<optgroup label="North America">
+						<option value="united-states" selected>United States</option>
+						<option value="canada">Canada</option>
+					</optgroup>
+				</select>
+				
 				<p>Tell us your age:</p>
 				<input type="radio" id="under18" name="age" value="under18">
 				<label for="under18">Under 18:</label><br>

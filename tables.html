@@ -23,24 +23,38 @@
 		<h1>HTML Tables</h1>
 		
 		<table>
-			<tr>
-				<th>Name</th>
-				<th>Address</th>
-				<th>Email</th>
-				<th>Telephone</td>
-			</tr>
-			<tr>
-				<td>John Smith</td>
-				<td>83 High Street</td>
-				<td>johnsmith@email.com</td>
-				<td>01234 567890</td>
-			</tr>
-			<tr>
-				<td>Robert Jones</td>
-				<td>14 Main Street</td>
-				<td>r.jones@email.com</td>
-				<td>09876 543210</td>
-			</tr>
+			<caption>Employees</caption>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Address</th>
+					<th>Email</th>
+					<th>Telephone</th>
+					<th>Wage (£)</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John Smith</td>
+					<td>83 High Street</td>
+					<td>johnsmith@email.com</td>
+					<td>01234 567890</td>
+					<td>28,000</td>
+				</tr>
+				<tr>
+					<td>Robert Jones</td>
+					<td>14 Main Street</td>
+					<td>r.jones@email.com</td>
+					<td>09876 543210</td>
+					<td>25,000</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="4">WAGE BILL</td>
+					<td>53,000</td>
+				</tr>
+			</tfoot>
 		</table>
 	
 	</body>

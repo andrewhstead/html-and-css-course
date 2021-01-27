@@ -27,12 +27,12 @@
 			
 			<fieldset>
 				<legend>Account Details</legend>
-				<label for="username">Username:</label>
-				<input type="text" id="username" name="username"><br><br>
-				<label for="password">Password:</label>
-				<input type="password" id="password" name="password"><br><br>
-				<label for="confirm">Confirm Password:</label>
-				<input type="password" id="confirm" name="confirm">
+				<label for="username">Username*:</label>
+				<input type="text" id="username" name="username" required><br><br>
+				<label for="password">Password*:</label>
+				<input type="password" id="password" name="password" required><br><br>
+				<label for="confirm">Confirm Password*:</label>
+				<input type="password" id="confirm" name="confirm" required>
 			</fieldset>
 			<br>
 			<fieldset>
@@ -47,6 +47,7 @@
 			<br>
 			<fieldset>
 				<legend>User Choices</legend>
+				
 				<p>Tell us your age:</p>
 				<input type="radio" id="under18" name="age" value="under18">
 				<label for="under18">Under 18:</label><br>
@@ -62,8 +63,21 @@
 				<label for="60s">60-69:</label><br>
 				<input type="radio" id="70plus" name="age" value="70plus">
 				<label for="70plus">70+:</label>
+				
+				<p>Contact me by:</p>
+				<input type="checkbox" id="mail" name="mail" value="mail" checked>
+				<label for="mail">Email:</label><br>
+				<input type="checkbox" id="sms" name="sms" value="sms">
+				<label for="sms">SMS:</label><br>
+				<input type="checkbox" id="phonecall" name="phonecall" value="phonecall">
+				<label for="phonecall">Phone:</label>
+							
 			</fieldset>
-			<br>
+			
+			<p>
+				* = required field
+			</p>
+			
 			<button>Submit</button>
 			
 		</form>

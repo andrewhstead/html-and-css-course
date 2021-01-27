@@ -79,7 +79,11 @@ a:hover {
 }
 
 article {
+	border: solid red 5px;
 	/*
+	border-style: solid;
+	border-color: red;
+	border-width: 5px;
 	background-image: radial-gradient(circle,pink,yellow,purple);
 	*/
 }
